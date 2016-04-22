@@ -6,7 +6,7 @@ module.exports =
     scopes:
       description: 'Comma seperated, no spaces. Find the scope for each language in its package.'
       type: 'string'
-      default: 'text.html,text.html.php,source.sass,source.js'
+      default: 'text.html,text.html.php,source.css.scss,source.js'
 
   activate: (state) ->
     @disposables = new CompositeDisposable
