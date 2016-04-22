@@ -2,7 +2,7 @@ module.exports =
 
   start: () ->
     requestAnimationFrame -> # wait for other dom changes
-      scopes = atom.config.get('typewriter.scopes').split(',')
+      scopes = atom.config.get('centerEditor.scopes').split(',')
       editor = atom.workspace.getActiveTextEditor()
 
       if editor isnt undefined # e.g. settings-view
@@ -16,10 +16,10 @@ module.exports =
           atom.views.getView(editor).style.maxWidth = characterWidth * (charactersPerLine + 4) + 'px'
           atom.views.getView(editor).style.paddingLeft = characterWidth * 2 + 'px'
           atom.views.getView(editor).style.paddingRight = characterWidth * 2 + 'px'
-          atom.views.getView(editor).setAttribute('data-typewriter', true)
+          atom.views.getView(editor).setAttribute('data-center-editor', true)
 
 
   stop: () ->
     $ = require 'jquery'
-    $('[data-typewriter]').attr('data-typewriter', false)
+    $('[data-center-editor]').attr('data-center-editor', false)
     $('atom-text-editor:not(.mini)').css 'max-width', ''
