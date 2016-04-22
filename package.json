@@ -1,9 +1,9 @@
 {
-  "name": "typewriter",
-  "main": "./lib/typewriter",
-  "version": "0.3.5",
-  "description": "A better writing experience for Atom",
-  "repository": "https://github.com/braver/typewriter",
+  "name": "atom-center-editor",
+  "main": "./lib/atom-center-editor",
+  "version": "0.1.0",
+  "description": "Center atom's editor",
+  "repository": "https://github.com/scherii/atom-center-editor",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -12,10 +12,6 @@
     "jquery": "2.x.x"
   },
   "keywords": [
-    "writing",
-    "markdown",
-    "mediawiki",
-    "zen",
-    "distraction free"
+    "center"
   ]
 }
