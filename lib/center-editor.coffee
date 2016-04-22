@@ -13,7 +13,7 @@ module.exports =
     Run = require './run'
     Run.start()
 
-    @disposables.add atom.config.onDidChange 'centerEditor.scopes', ->
+    @disposables.add atom.config.onDidChange 'center-editor.scopes', ->
       # Reset, start() will run again when pane is switched (e.g. away from settings)
       Run.stop()
 

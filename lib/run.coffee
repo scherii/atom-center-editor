@@ -2,7 +2,7 @@ module.exports =
 
   start: () ->
     requestAnimationFrame -> # wait for other dom changes
-      scopes = atom.config.get('centerEditor.scopes').split(',')
+      scopes = atom.config.get('center-editor.scopes').split(',')
       editor = atom.workspace.getActiveTextEditor()
 
       if editor isnt undefined # e.g. settings-view

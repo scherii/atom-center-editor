@@ -1,6 +1,6 @@
 {
 	"name": "atom-center-editor",
-	"main": "./lib/centerEditor",
+	"main": "./lib/center-editor",
 	"version": "0.1.0",
 	"description": "Center atom's editor",
 	"repository": "https://github.com/scherii/atom-center-editor",
