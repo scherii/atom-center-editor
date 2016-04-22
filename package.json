@@ -1,17 +1,17 @@
 {
-  "name": "atom-center-editor",
-  "main": "./lib/atom-center-editor",
-  "version": "0.1.0",
-  "description": "Center atom's editor",
-  "repository": "https://github.com/scherii/atom-center-editor",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "jquery": "2.x.x"
-  },
-  "keywords": [
-    "center"
-  ]
+	"name": "atom-center-editor",
+	"main": "./lib/centerEditor",
+	"version": "0.1.0",
+	"description": "Center atom's editor",
+	"repository": "https://github.com/scherii/atom-center-editor",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+		"jquery": "2.x.x"
+	},
+	"keywords": [
+		"center"
+	]
 }
